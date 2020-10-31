@@ -16,9 +16,12 @@ const {
 
 describe('devolverPrimerElemento(arr)', function() {
   it('should return the first item in the array', function() {
-    expect(devolverPrimerElemento([10, 10, 16, 12])).toBe(10);
-    expect(devolverPrimerElemento([97, 100, 80, 55, 72, 94])).toBe(97);
-  });
+    expect(devolverPrimerElemento([10, 10, 16, 12])).toBe(10) {
+      console.log('devolverPrimerElemento'[0]);
+    }
+    expect(devolverPrimerElemento([97, 100, 80, 55, 72, 94])).toBe(97) {
+      console.log('devolverPrimerElemento'[0]);
+    } 
 });
 
 describe('devolverUltimoElemento(arr)', function() {
